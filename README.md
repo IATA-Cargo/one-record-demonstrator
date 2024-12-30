@@ -16,7 +16,7 @@ Welcome to the ONE Record Demonstrator, in this document you will find all the i
    ```
 2) Switch to the directory to docker-compose
    ```bash
-   cd one-record-demo/docker-compose
+   cd one-record-demonstrator/docker-compose
    ```
    If you have Mac or Linux, please reset folder permissions 
    ```bash
