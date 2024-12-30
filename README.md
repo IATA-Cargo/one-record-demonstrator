@@ -57,8 +57,8 @@ Welcome to the ONE Record Demonstrator, in this document you will find all the i
 
 IMPORTANT: 
 - To simplify the setup, both NE:ONE servers are connected to a single Keycloak server, sharing the same user account.
-- Each ops ui is directly connected with a ops ui server to stream notification.
-- You can connect two ops ui to the two ne-one server and keep one as a standalone client. The ops ui server is be able to reply to subscription requests and receive direct notifications.
+- Each ONExplorer is directly connected with a ONExplorer server to stream notification.
+- You can connect two ONExplorer to the two ne-one server and keep one as a standalone client. The ONExplorer server is be able to reply to subscription requests and receive direct notifications.
 
 
 ## Get a token
@@ -111,8 +111,8 @@ We show here how to add an external server to the ONExplorer.
 3. Click on ADD SERVER in the External Servers section
 4. On the popup insert:
    - Server name
-   - The base url of the server (to use the NE:ONE server of these image use http://localhost:8080 or 8081. To use the Ops UI server input http://localhost:4081 or 5081 or 6081)
-   - A OIDC token (for NE:ONE you can use the get a token section while for Ops Ui server just put a random character)
+   - The base url of the server (to use the NE:ONE server of these image use http://localhost:8080 or 8081. To use the ONExplorer server input http://localhost:4081 or 5081 or 6081)
+   - A OIDC token (for NE:ONE you can use the get a token section while for ONExplorer server just put a random character)
 6. Click on ADD 
 7. Now the ONExplorer can interact with external servers
 
