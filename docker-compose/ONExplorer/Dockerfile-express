@@ -6,7 +6,7 @@ FROM base AS deps
 RUN apk add --no-cache libc6-compat git
 WORKDIR /app
 
-RUN git clone https://github.com/aloccid-iata/ONExplorer.git
+RUN git clone https://github.com/IATA-Cargo/ONExplorer.git
 RUN mv ONExplorer/* ./
 
 RUN npm install
