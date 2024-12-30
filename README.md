@@ -12,7 +12,7 @@ Welcome to the ONE Record Demonstrator, in this document you will find all the i
 
 1) Clone the repository
    ```bash
-   git clone https://github.com/IATA-Cargo/one-record-demo.git
+   git clone https://github.com/IATA-Cargo/one-record-demonstrator.git
    ```
 2) Switch to the directory to docker-compose
    ```bash
