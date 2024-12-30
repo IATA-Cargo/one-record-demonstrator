@@ -54,6 +54,7 @@ Welcome to the ONE Record Demonstrator, in this document you will find all the i
 | graphdb | GraphDB database as database backend for ne-one-1 and ne-one-2 on two separate repositories (neone and neone2) | http://localhost:7200 |
 | keycloak | Identity provider for ne-one-1 and ne-one-2 servers to authenticate ONE Record clients and to obtain tokens for outgoing requests. <br/> **Preconfigured client_id:** neone-client<br/> **Preconfigured client_secret:** lx7ThS5aYggdsMm42BP3wMrVqKm9WpNY  | http://localhost:8989 <br/> (username/password: admin/admin)|
 | mockserver | A mock server that displays all notification, subscription and action request and replies with specific patterns | http://localhost:1080/mockserver/dashboard |
+
 IMPORTANT: 
 - To simplify the setup, both NE:ONE servers are connected to a single Keycloak server, sharing the same user account.
 - Each ops ui is directly connected with a ops ui server to stream notification.
