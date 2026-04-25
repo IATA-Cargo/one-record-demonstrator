@@ -101,7 +101,7 @@ services:
                 condition: service_healthy
 
     ne-one-1:
-        image: git.openlogisticsfoundation.org:5050/wg-digitalaircargo/ne-one:dev
+        image: git.openlogisticsfoundation.org:5050/wg-digitalaircargo/ne-one:latest
         network_mode: service:localhost
         healthcheck:
             test: curl --fail http://localhost:8080/q/health || exit 1
@@ -139,7 +139,7 @@ services:
                 condition: service_started
 
     ne-one-2:
-        image: git.openlogisticsfoundation.org:5050/wg-digitalaircargo/ne-one:dev
+        image: git.openlogisticsfoundation.org:5050/wg-digitalaircargo/ne-one:latest
         network_mode: service:localhost
         healthcheck:
             test: curl --fail http://localhost:8081/q/health || exit 1
